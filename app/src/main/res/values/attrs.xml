@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OverlayRelativeView">
+
+        <attr name="overlayColor" format="color" />
+        <attr name="showLoader" format="boolean" />
+        <attr name="loaderDrawable" format="integer" />
+        <attr name="overlayBackground" format="integer"/>
+        <attr name="loaderColor" format="color"/>
+        <attr name="loaderPosition" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+            <enum name="center" value="4"/>
+        </attr>
+        <attr name="loaderMargin" format="dimension"/>
+
+    </declare-styleable>
+</resources>
