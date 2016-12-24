@@ -28,4 +28,16 @@
    What I mean here is, if the references are not modified anytime, then there is no point in going for deep copy. 
    You can just opt shallow copy. But if the references are modified often, then you need to go for deep copy. 
    Again there is no hard and fast rule, it all depends on the requirement.
+   
+   
+###3. Mutable vs Immutable:
+
+   Mutable and immutable are English words meaning "can change" and "cannot change" respectively. The meaning of the 
+   words is the same in the IT context; i.e.
+   
+   -- a mutable string can be changed, and [StringBuilder Object]
+   -- an immutable string cannot be changed. [String Object]
+   
+   The meanings of these words are the same in C# / .NET as in other programming languages / environments, though 
+   (obviously) the names of the types may differ, as may other details.
   
