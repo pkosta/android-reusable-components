@@ -1,4 +1,4 @@
-1. Cloning vs Copy Constructor the object:
+###1. Cloning vs Copy Constructor the object:
    Clone method and Cloneable interface has been broken, it has many defects. Don't use clone concept. Always go with copy 
    constaructor.
    
@@ -12,6 +12,20 @@
     
    }
    
-2. Shallow copy vs deep copy:sdsadnjhjhjhjjhjkj
-asdsa
+###2. Shallow copy vs deep copy:
+
+   Shallow copy is a bit-wise copy of an object. A new object is created that has an exact copy of the values in the 
+   original object. If any of the fields of the object are references to other objects, just the reference addresses are 
+   copied i.e., only the memory address is copied.
+   
+   A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by the fields. 
+   A deep copy occurs when an object is copied along with the objects to which it refers.
+   
+   When to do shallow copy and deep copy?
+
+   Its very simple that if the object has only primitive fields, then obviously you will go for shallow copy but if the 
+   object has references to other objects, then based on the requiement, shallow copy or deep copy should be chosen. 
+   What I mean here is, if the references are not modified anytime, then there is no point in going for deep copy. 
+   You can just opt shallow copy. But if the references are modified often, then you need to go for deep copy. 
+   Again there is no hard and fast rule, it all depends on the requirement.
   
