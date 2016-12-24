@@ -1,0 +1,17 @@
+1. Cloning vs Copy Constructor the object:
+   Clone method and Cloneable interface has been broken, it has many defects. Don't use clone concept. Always go with copy 
+   constaructor.
+   
+   Prefer a method that copies the object
+   Foo copyFoo (Foo foo){
+  
+    Foo f = new Foo();
+    //for all properties in FOo
+    f.set(foo.get());
+    return f;
+    
+   }
+   
+2. Shallow copy vs deep copy:sdsadnjhjhjhjjhjkj
+asdsa
+  
